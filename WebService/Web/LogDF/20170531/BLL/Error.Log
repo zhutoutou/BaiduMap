@@ -1,0 +1,10 @@
+﻿异常时间:2017-05-31 16:11:17
+异常级别:Error
+异常位置:ExecuteNonQuery
+异常内容:System.Data.OracleClient.OracleException (0x80131938): ORA-04063: package body "NB120_0525.ZIT_RP_ACCEPT_PKG" 有错误
+ORA-06508: PL/SQL: 无法找到正在调用 : "NB120_0525.ZIT_RP_ACCEPT_PKG" 的程序单元
+ORA-06512: 在 line 1
+
+   在 Web.OracleHelper.ExecuteNonQuery(String commandText, CommandType commandType, OracleParameter[] param) 位置 f:\工作资料\宁波\宁波（济宁基础上修改）\WebService\Web\Utils\OracleHelper.cs:行号 129
+   在 Web.InfoDal.SP_UPDATE_CALL_INFO(CALL_INFO ext) 位置 f:\工作资料\宁波\宁波（济宁基础上修改）\WebService\Web\DAL\InfoDal.cs:行号 1125
+

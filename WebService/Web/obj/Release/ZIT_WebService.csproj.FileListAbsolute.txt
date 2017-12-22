@@ -1,0 +1,278 @@
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Maps\AcceptInfo.xml
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Maps\ProductMap.xml
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Providers.config
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\SqlMap.config
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Web.dll.config
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Web.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Web.pdb
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\IBatisNet.Common.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\IBatisNet.DataAccess.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\IBatisNet.DataMapper.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Castle.DynamicProxy.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\IBatisNet.Common.xml
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\IBatisNet.DataAccess.xml
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\IBatisNet.DataMapper.xml
+E:\技术\MyBatisNet框架\MyBatisSample\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\技术\MyBatisNet框架\MyBatisSample\Web\obj\Release\Web.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\obj\Release\Web.pdb
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\LogUtility.dll
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\Maps\AcceptInfo.xml
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\Maps\ProductMap.xml
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\Providers.config
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\SqlMap.config
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\Web.dll.config
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\Web.dll
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\Web.pdb
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\IBatisNet.Common.dll
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\IBatisNet.DataAccess.dll
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\IBatisNet.DataMapper.dll
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\LogUtility.dll
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\Castle.DynamicProxy.dll
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\IBatisNet.Common.xml
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\IBatisNet.DataAccess.xml
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\bin\IBatisNet.DataMapper.xml
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\obj\Release\Web.dll
+F:\新建文件夹\技术\MyBatisNet框架\WebService\Web\obj\Release\Web.pdb
+F:\NewSys\WebService\Web\bin\Maps\AcceptInfo.xml
+F:\NewSys\WebService\Web\bin\Maps\ProductMap.xml
+F:\NewSys\WebService\Web\bin\Providers.config
+F:\NewSys\WebService\Web\bin\SqlMap.config
+F:\NewSys\WebService\Web\bin\Web.dll.config
+F:\NewSys\WebService\Web\bin\Web.dll
+F:\NewSys\WebService\Web\bin\Web.pdb
+F:\NewSys\WebService\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+F:\NewSys\WebService\Web\obj\Release\Web.dll
+F:\NewSys\WebService\Web\obj\Release\Web.pdb
+E:\郑州最新\WebService\Web\bin\Maps\AcceptInfo.xml
+E:\郑州最新\WebService\Web\bin\Maps\ProductMap.xml
+E:\郑州最新\WebService\Web\bin\Providers.config
+E:\郑州最新\WebService\Web\bin\SqlMap.config
+E:\郑州最新\WebService\Web\bin\Web.dll.config
+E:\郑州最新\WebService\Web\bin\Web.dll
+E:\郑州最新\WebService\Web\bin\Web.pdb
+E:\郑州最新\WebService\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\郑州最新\WebService\Web\obj\Release\Web.dll
+E:\郑州最新\WebService\Web\obj\Release\Web.pdb
+C:\Users\Administrator\Desktop\WebService20160407\Web\bin\Maps\AcceptInfo.xml
+C:\Users\Administrator\Desktop\WebService20160407\Web\bin\Maps\ProductMap.xml
+C:\Users\Administrator\Desktop\WebService20160407\Web\bin\Providers.config
+C:\Users\Administrator\Desktop\WebService20160407\Web\bin\SqlMap.config
+C:\Users\Administrator\Desktop\WebService20160407\Web\bin\Web.dll.config
+C:\Users\Administrator\Desktop\WebService20160407\Web\bin\Web.dll
+C:\Users\Administrator\Desktop\WebService20160407\Web\bin\Web.pdb
+C:\Users\Administrator\Desktop\WebService20160407\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WebService20160407\Web\obj\Release\Web.dll
+C:\Users\Administrator\Desktop\WebService20160407\Web\obj\Release\Web.pdb
+C:\Users\Administrator\Desktop\20160417\WebService20160415\Web\bin\Maps\AcceptInfo.xml
+C:\Users\Administrator\Desktop\20160417\WebService20160415\Web\bin\Maps\ProductMap.xml
+C:\Users\Administrator\Desktop\20160417\WebService20160415\Web\bin\Providers.config
+C:\Users\Administrator\Desktop\20160417\WebService20160415\Web\bin\SqlMap.config
+C:\Users\Administrator\Desktop\20160417\WebService20160415\Web\bin\Web.dll.config
+C:\Users\Administrator\Desktop\20160417\WebService20160415\Web\bin\Web.dll
+C:\Users\Administrator\Desktop\20160417\WebService20160415\Web\bin\Web.pdb
+C:\Users\Administrator\Desktop\20160417\WebService20160415\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20160417\WebService20160415\Web\obj\Release\Web.dll
+C:\Users\Administrator\Desktop\20160417\WebService20160415\Web\obj\Release\Web.pdb
+F:\郑州最新\WebService20160425\Web\bin\Maps\AcceptInfo.xml
+F:\郑州最新\WebService20160425\Web\bin\Maps\ProductMap.xml
+F:\郑州最新\WebService20160425\Web\bin\Providers.config
+F:\郑州最新\WebService20160425\Web\bin\SqlMap.config
+F:\郑州最新\WebService20160425\Web\bin\Web.dll.config
+F:\郑州最新\WebService20160425\Web\bin\Web.dll
+F:\郑州最新\WebService20160425\Web\bin\Web.pdb
+F:\郑州最新\WebService20160425\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+F:\郑州最新\WebService20160425\Web\obj\Release\Web.dll
+F:\郑州最新\WebService20160425\Web\obj\Release\Web.pdb
+F:\ZZ20160510\WebService20160509\Web\bin\Maps\AcceptInfo.xml
+F:\ZZ20160510\WebService20160509\Web\bin\Maps\ProductMap.xml
+F:\ZZ20160510\WebService20160509\Web\bin\Providers.config
+F:\ZZ20160510\WebService20160509\Web\bin\SqlMap.config
+F:\ZZ20160510\WebService20160509\Web\bin\Web.dll.config
+F:\ZZ20160510\WebService20160509\Web\bin\Web.dll
+F:\ZZ20160510\WebService20160509\Web\bin\Web.pdb
+F:\ZZ20160510\WebService20160509\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+F:\ZZ20160510\WebService20160509\Web\obj\Release\Web.dll
+F:\ZZ20160510\WebService20160509\Web\obj\Release\Web.pdb
+E:\郑州最新\WebService20160520\WebService20160509\Web\bin\Maps\AcceptInfo.xml
+E:\郑州最新\WebService20160520\WebService20160509\Web\bin\Maps\ProductMap.xml
+E:\郑州最新\WebService20160520\WebService20160509\Web\bin\Providers.config
+E:\郑州最新\WebService20160520\WebService20160509\Web\bin\SqlMap.config
+E:\郑州最新\WebService20160520\WebService20160509\Web\bin\Web.dll.config
+E:\郑州最新\WebService20160520\WebService20160509\Web\bin\Web.dll
+E:\郑州最新\WebService20160520\WebService20160509\Web\bin\Web.pdb
+E:\郑州最新\WebService20160520\WebService20160509\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\郑州最新\WebService20160520\WebService20160509\Web\obj\Release\Web.dll
+E:\郑州最新\WebService20160520\WebService20160509\Web\obj\Release\Web.pdb
+C:\Users\pc\Desktop\WS_BJB_20160604\Web\bin\Maps\AcceptInfo.xml
+C:\Users\pc\Desktop\WS_BJB_20160604\Web\bin\Maps\ProductMap.xml
+C:\Users\pc\Desktop\WS_BJB_20160604\Web\bin\Providers.config
+C:\Users\pc\Desktop\WS_BJB_20160604\Web\bin\SqlMap.config
+C:\Users\pc\Desktop\WS_BJB_20160604\Web\bin\Web.dll.config
+C:\Users\pc\Desktop\WS_BJB_20160604\Web\bin\Web.dll
+C:\Users\pc\Desktop\WS_BJB_20160604\Web\bin\Web.pdb
+C:\Users\pc\Desktop\WS_BJB_20160604\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\WS_BJB_20160604\Web\obj\Release\Web.dll
+C:\Users\pc\Desktop\WS_BJB_20160604\Web\obj\Release\Web.pdb
+C:\PerfLogs\WS_BJB_20160604\Web\bin\Maps\AcceptInfo.xml
+C:\PerfLogs\WS_BJB_20160604\Web\bin\Maps\ProductMap.xml
+C:\PerfLogs\WS_BJB_20160604\Web\bin\Providers.config
+C:\PerfLogs\WS_BJB_20160604\Web\bin\SqlMap.config
+C:\PerfLogs\WS_BJB_20160604\Web\bin\Web.dll.config
+C:\PerfLogs\WS_BJB_20160604\Web\bin\Web.dll
+C:\PerfLogs\WS_BJB_20160604\Web\bin\Web.pdb
+C:\PerfLogs\WS_BJB_20160604\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+C:\PerfLogs\WS_BJB_20160604\Web\obj\Release\Web.dll
+C:\PerfLogs\WS_BJB_20160604\Web\obj\Release\Web.pdb
+C:\Program Files\2345Soft\2WS_BJB_20160604\Web\bin\Maps\AcceptInfo.xml
+C:\Program Files\2345Soft\2WS_BJB_20160604\Web\bin\Maps\ProductMap.xml
+C:\Program Files\2345Soft\2WS_BJB_20160604\Web\bin\Providers.config
+C:\Program Files\2345Soft\2WS_BJB_20160604\Web\bin\SqlMap.config
+C:\Program Files\2345Soft\2WS_BJB_20160604\Web\bin\Web.dll.config
+C:\Program Files\2345Soft\2WS_BJB_20160604\Web\bin\Web.dll
+C:\Program Files\2345Soft\2WS_BJB_20160604\Web\bin\Web.pdb
+C:\Program Files\2345Soft\2WS_BJB_20160604\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+C:\Program Files\2345Soft\2WS_BJB_20160604\Web\obj\Release\Web.dll
+C:\Program Files\2345Soft\2WS_BJB_20160604\Web\obj\Release\Web.pdb
+E:\郑州最新\3WS_BJB_20160604\3WS_BJB_20160604\Web\bin\Maps\AcceptInfo.xml
+E:\郑州最新\3WS_BJB_20160604\3WS_BJB_20160604\Web\bin\Maps\ProductMap.xml
+E:\郑州最新\3WS_BJB_20160604\3WS_BJB_20160604\Web\bin\Providers.config
+E:\郑州最新\3WS_BJB_20160604\3WS_BJB_20160604\Web\bin\SqlMap.config
+E:\郑州最新\3WS_BJB_20160604\3WS_BJB_20160604\Web\bin\Web.dll.config
+E:\郑州最新\3WS_BJB_20160604\3WS_BJB_20160604\Web\bin\Web.dll
+E:\郑州最新\3WS_BJB_20160604\3WS_BJB_20160604\Web\bin\Web.pdb
+E:\郑州最新\3WS_BJB_20160604\3WS_BJB_20160604\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\郑州最新\3WS_BJB_20160604\3WS_BJB_20160604\Web\obj\Release\Web.dll
+E:\郑州最新\3WS_BJB_20160604\3WS_BJB_20160604\Web\obj\Release\Web.pdb
+E:\郑州最新\WS_BJB_20160725\Web\bin\Web.dll.config
+E:\郑州最新\WS_BJB_20160725\Web\bin\Web.dll
+E:\郑州最新\WS_BJB_20160725\Web\bin\Web.pdb
+E:\郑州最新\WS_BJB_20160725\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\郑州最新\WS_BJB_20160725\Web\obj\Release\Web.dll
+E:\郑州最新\WS_BJB_20160725\Web\obj\Release\Web.pdb
+E:\宁波\宁波WS\Web\bin\Web.dll.config
+E:\宁波\宁波WS\Web\bin\Web.dll
+E:\宁波\宁波WS\Web\bin\Web.pdb
+E:\宁波\宁波WS\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\宁波\宁波WS\Web\obj\Release\Web.dll
+E:\宁波\宁波WS\Web\obj\Release\Web.pdb
+E:\宁波（增援0826）\宁波WS\Web\bin\Web.dll.config
+E:\宁波（增援0826）\宁波WS\Web\bin\Web.dll
+E:\宁波（增援0826）\宁波WS\Web\bin\Web.pdb
+E:\宁波（增援0826）\宁波WS\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\宁波（增援0826）\宁波WS\Web\obj\Release\Web.dll
+E:\宁波（增援0826）\宁波WS\Web\obj\Release\Web.pdb
+E:\襄阳\0826\ws\Web\bin\Web.dll.config
+E:\襄阳\0826\ws\Web\bin\Web.dll
+E:\襄阳\0826\ws\Web\bin\Web.pdb
+E:\襄阳\0826\ws\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\襄阳\0826\ws\Web\obj\Release\Web.dll
+E:\襄阳\0826\ws\Web\obj\Release\Web.pdb
+E:\襄阳\0907\ws\Web\bin\Web.dll.config
+E:\襄阳\0907\ws\Web\bin\Web.dll
+E:\襄阳\0907\ws\Web\bin\Web.pdb
+E:\襄阳\0907\ws\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\襄阳\0907\ws\Web\obj\Release\Web.dll
+E:\襄阳\0907\ws\Web\obj\Release\Web.pdb
+E:\台州\WS\Web\bin\Web.dll.config
+E:\台州\WS\Web\bin\Web.dll
+E:\台州\WS\Web\bin\Web.pdb
+E:\台州\WS\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\台州\WS\Web\obj\Release\Web.dll
+E:\台州\WS\Web\obj\Release\Web.pdb
+F:\新建文件夹\受理台最新\宁波\WS\Web\bin\Web.dll.config
+F:\新建文件夹\受理台最新\宁波\WS\Web\bin\Web.dll
+F:\新建文件夹\受理台最新\宁波\WS\Web\bin\Web.pdb
+F:\新建文件夹\受理台最新\宁波\WS\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+F:\新建文件夹\受理台最新\宁波\WS\Web\obj\Release\Web.dll
+F:\新建文件夹\受理台最新\宁波\WS\Web\obj\Release\Web.pdb
+F:\新建文件夹\受理台最新\宁波\WS1229\Web\bin\Web.dll.config
+F:\新建文件夹\受理台最新\宁波\WS1229\Web\bin\Web.dll
+F:\新建文件夹\受理台最新\宁波\WS1229\Web\bin\Web.pdb
+F:\新建文件夹\受理台最新\宁波\WS1229\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+F:\新建文件夹\受理台最新\宁波\WS1229\Web\obj\Release\Web.dll
+F:\新建文件夹\受理台最新\宁波\WS1229\Web\obj\Release\Web.pdb
+F:\新建文件夹\受理台最新\襄阳\WS01017\Web\bin\Web.dll.config
+F:\新建文件夹\受理台最新\襄阳\WS01017\Web\bin\Web.dll
+F:\新建文件夹\受理台最新\襄阳\WS01017\Web\bin\Web.pdb
+F:\新建文件夹\受理台最新\襄阳\WS01017\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+F:\新建文件夹\受理台最新\襄阳\WS01017\Web\obj\Release\Web.dll
+F:\新建文件夹\受理台最新\襄阳\WS01017\Web\obj\Release\Web.pdb
+F:\新建文件夹\受理台最新\宁波\WS0122\Web\bin\Web.dll.config
+F:\新建文件夹\受理台最新\宁波\WS0122\Web\bin\Web.dll
+F:\新建文件夹\受理台最新\宁波\WS0122\Web\bin\Web.pdb
+F:\新建文件夹\受理台最新\宁波\WS0122\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+F:\新建文件夹\受理台最新\宁波\WS0122\Web\obj\Release\Web.dll
+F:\新建文件夹\受理台最新\宁波\WS0122\Web\obj\Release\Web.pdb
+F:\新建文件夹\受理台最新\宁波\WS0214\Web\bin\Web.dll.config
+F:\新建文件夹\受理台最新\宁波\WS0214\Web\bin\Web.dll
+F:\新建文件夹\受理台最新\宁波\WS0214\Web\bin\Web.pdb
+F:\新建文件夹\受理台最新\宁波\WS0214\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+F:\新建文件夹\受理台最新\宁波\WS0214\Web\obj\Release\Web.dll
+F:\新建文件夹\受理台最新\宁波\WS0214\Web\obj\Release\Web.pdb
+F:\新建文件夹\受理台最新\襄阳\WS0214\Web\bin\Web.dll.config
+F:\新建文件夹\受理台最新\襄阳\WS0214\Web\bin\Web.dll
+F:\新建文件夹\受理台最新\襄阳\WS0214\Web\bin\Web.pdb
+F:\新建文件夹\受理台最新\襄阳\WS0214\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+F:\新建文件夹\受理台最新\襄阳\WS0214\Web\obj\Release\Web.dll
+F:\新建文件夹\受理台最新\襄阳\WS0214\Web\obj\Release\Web.pdb
+D:\software\济宁\WS0214\Web\bin\Web.dll.config
+D:\software\济宁\WS0214\Web\bin\Web.dll
+D:\software\济宁\WS0214\Web\bin\Web.pdb
+D:\software\济宁\WS0214\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+D:\software\济宁\WS0214\Web\obj\Release\Web.dll
+D:\software\济宁\WS0214\Web\obj\Release\Web.pdb
+D:\新建文件夹 (2)\zsy_jn_ws\Web\bin\Web.dll.config
+D:\新建文件夹 (2)\zsy_jn_ws\Web\bin\Web.dll
+D:\新建文件夹 (2)\zsy_jn_ws\Web\bin\Web.pdb
+D:\新建文件夹 (2)\zsy_jn_ws\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+D:\新建文件夹 (2)\zsy_jn_ws\Web\obj\Release\Web.dll
+D:\新建文件夹 (2)\zsy_jn_ws\Web\obj\Release\Web.pdb
+E:\zsy\新建文件夹 (2)\zsy_jn_ws\Web\bin\Web.dll.config
+E:\zsy\新建文件夹 (2)\zsy_jn_ws\Web\bin\Web.dll
+E:\zsy\新建文件夹 (2)\zsy_jn_ws\Web\bin\Web.pdb
+E:\zsy\新建文件夹 (2)\zsy_jn_ws\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\zsy\新建文件夹 (2)\zsy_jn_ws\Web\obj\Release\Web.dll
+E:\zsy\新建文件夹 (2)\zsy_jn_ws\Web\obj\Release\Web.pdb
+D:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\bin\Web.dll.config
+D:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\bin\Web.dll
+D:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\bin\Web.pdb
+D:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+D:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\obj\Release\Web.dll
+D:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\obj\Release\Web.pdb
+E:\zsy\zsy_jn_ws0515\zsy_jn_ws\Web\bin\Web.dll.config
+E:\zsy\zsy_jn_ws0515\zsy_jn_ws\Web\bin\Web.dll
+E:\zsy\zsy_jn_ws0515\zsy_jn_ws\Web\bin\Web.pdb
+E:\zsy\zsy_jn_ws0515\zsy_jn_ws\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\zsy\zsy_jn_ws0515\zsy_jn_ws\Web\obj\Release\Web.dll
+E:\zsy\zsy_jn_ws0515\zsy_jn_ws\Web\obj\Release\Web.pdb
+E:\dll2\zsy_jn_ws0515\zsy_jn_ws\Web\bin\Web.dll.config
+E:\dll2\zsy_jn_ws0515\zsy_jn_ws\Web\bin\Web.dll
+E:\dll2\zsy_jn_ws0515\zsy_jn_ws\Web\bin\Web.pdb
+E:\dll2\zsy_jn_ws0515\zsy_jn_ws\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\dll2\zsy_jn_ws0515\zsy_jn_ws\Web\obj\Release\Web.dll
+E:\dll2\zsy_jn_ws0515\zsy_jn_ws\Web\obj\Release\Web.pdb
+E:\dll3\zsy_jn_ws0517\zsy_jn_ws\Web\bin\Web.dll.config
+E:\dll3\zsy_jn_ws0517\zsy_jn_ws\Web\bin\Web.dll
+E:\dll3\zsy_jn_ws0517\zsy_jn_ws\Web\bin\Web.pdb
+E:\dll3\zsy_jn_ws0517\zsy_jn_ws\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+E:\dll3\zsy_jn_ws0517\zsy_jn_ws\Web\obj\Release\Web.dll
+E:\dll3\zsy_jn_ws0517\zsy_jn_ws\Web\obj\Release\Web.pdb
+F:\工作资料\宁波\WebService\Web\bin\Web.dll.config
+F:\工作资料\宁波\WebService\Web\bin\Web.dll
+F:\工作资料\宁波\WebService\Web\bin\Web.pdb
+F:\工作资料\宁波\WebService\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+F:\工作资料\宁波\WebService\Web\obj\Release\Web.dll
+F:\工作资料\宁波\WebService\Web\obj\Release\Web.pdb
+F:\工作资料\宁波\受理台0606\WebService\Web\bin\Web.dll.config
+F:\工作资料\宁波\受理台0606\WebService\Web\bin\Web.dll
+F:\工作资料\宁波\受理台0606\WebService\Web\bin\Web.pdb
+F:\工作资料\宁波\受理台0606\WebService\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+F:\工作资料\宁波\受理台0606\WebService\Web\obj\Release\Web.dll
+F:\工作资料\宁波\受理台0606\WebService\Web\obj\Release\Web.pdb
+D:\9.0\NB\WebService\Web\bin\Web.dll.config
+D:\9.0\NB\WebService\Web\bin\Web.dll
+D:\9.0\NB\WebService\Web\bin\Web.pdb
+D:\9.0\NB\WebService\Web\obj\Release\ZIT_WebService.csprojResolveAssemblyReference.cache
+D:\9.0\NB\WebService\Web\obj\Release\Web.dll
+D:\9.0\NB\WebService\Web\obj\Release\Web.pdb

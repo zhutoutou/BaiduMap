@@ -1,0 +1,168 @@
+﻿日志时间:2017-05-16 16:57:52
+日志级别:Info
+日志位置:类[OracleHelper],方法[ZIT_RP_ACCEPT_PKG.SP_UPDATE_RP_ONDUTY]
+日志内容:参数：strDDYID:1234,strRPID:2008,dSBSJ:2017/5/16 16:57:52,dXBSJ:,strBZ:,nFLAG:0,errMSG:,,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-04068: 已丢弃程序包  的当前状态
+ORA-04061: package body "JNG120.ZIT_RP_ACCEPT_PKG" 的当前状态失效
+ORA-04065: 未执行, 已变更或删除 package body "JNG120.ZIT_RP_ACCEPT_PKG"
+ORA-06508: PL/SQL: 无法找到正在调用 : "JNG120.ZIT_RP_ACCEPT_PKG" 的程序单元
+ORA-06512: 在 line 1
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Web.OracleHelper.ExecuteNonQuery(String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 106
+
+日志时间:2017-05-16 17:16:44
+日志级别:Info
+日志位置:类[OracleHelper],方法[select filename,recserverid  from t_recvocinfo where  callid='20170516171430']
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-01017: invalid username/password; logon denied
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList_rec[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 399
+
+日志时间:2017-05-16 17:16:48
+日志级别:Info
+日志位置:类[OracleHelper],方法[select filename,recserverid  from t_recvocinfo where  callid='20170516165815']
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-01017: invalid username/password; logon denied
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList_rec[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 399
+
+日志时间:2017-05-16 17:16:52
+日志级别:Info
+日志位置:类[OracleHelper],方法[select filename,recserverid  from t_recvocinfo where  callid='20170516171430']
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-01017: invalid username/password; logon denied
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList_rec[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 399
+
+日志时间:2017-05-16 17:16:54
+日志级别:Info
+日志位置:类[OracleHelper],方法[select filename,recserverid  from t_recvocinfo where  callid='20170516165815']
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-01017: invalid username/password; logon denied
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList_rec[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 399
+
+日志时间:2017-05-16 17:17:01
+日志级别:Info
+日志位置:类[OracleHelper],方法[select filename,recserverid  from t_recvocinfo where  callid='20170516171430']
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-01017: invalid username/password; logon denied
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList_rec[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 399
+
+日志时间:2017-05-16 17:17:10
+日志级别:Info
+日志位置:类[OracleHelper],方法[select filename,recserverid  from t_recvocinfo where  callid='2017051615163863']
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-01017: invalid username/password; logon denied
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList_rec[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 399
+
+日志时间:2017-05-16 17:17:12
+日志级别:Info
+日志位置:类[OracleHelper],方法[select filename,recserverid  from t_recvocinfo where  callid='2017051615285268']
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-01017: invalid username/password; logon denied
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList_rec[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 399
+
+日志时间:2017-05-16 17:17:14
+日志级别:Info
+日志位置:类[OracleHelper],方法[select filename,recserverid  from t_recvocinfo where  callid='201705161511027D']
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-01017: invalid username/password; logon denied
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList_rec[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 399
+
+日志时间:2017-05-16 17:17:15
+日志级别:Info
+日志位置:类[OracleHelper],方法[select filename,recserverid  from t_recvocinfo where  callid='2017051615285268']
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-01017: invalid username/password; logon denied
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList_rec[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 399
+
+日志时间:2017-05-16 17:17:15
+日志级别:Info
+日志位置:类[OracleHelper],方法[select filename,recserverid  from t_recvocinfo where  callid='2017051615163863']
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-01017: invalid username/password; logon denied
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList_rec[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 399
+
+日志时间:2017-05-16 17:17:16
+日志级别:Info
+日志位置:类[OracleHelper],方法[select filename,recserverid  from t_recvocinfo where  callid='2017051615123801']
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-01017: invalid username/password; logon denied
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList_rec[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 399
+
+日志时间:2017-05-16 17:17:16
+日志级别:Info
+日志位置:类[OracleHelper],方法[select filename,recserverid  from t_recvocinfo where  callid='2017051615262467']
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-01017: invalid username/password; logon denied
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList_rec[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 399
+

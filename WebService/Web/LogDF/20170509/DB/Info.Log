@@ -1,0 +1,33 @@
+﻿日志时间:2017-05-09 16:18:09
+日志级别:Info
+日志位置:类[OracleHelper],方法[update accept_info set sjh='201705091618080519' and SLZT=1  where lsh='20170509370800000309' ]
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-00933: SQL 命令未正确结束
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Web.OracleHelper.ExecuteNonQuery(String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 106
+
+日志时间:2017-05-09 16:20:51
+日志级别:Info
+日志位置:类[OracleHelper],方法[update accept_info set sjh='201705091620120595' and SLZT=1  where lsh='20170509370800000310' ]
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-00933: SQL 命令未正确结束
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Web.OracleHelper.ExecuteNonQuery(String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 106
+
+日志时间:2017-05-09 16:21:48
+日志级别:Info
+日志位置:类[OracleHelper],方法[update accept_info set sjh='201705091620120595' and SLZT=1  where lsh='20170509370800000310' ]
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-00933: SQL 命令未正确结束
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Web.OracleHelper.ExecuteNonQuery(String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 106
+

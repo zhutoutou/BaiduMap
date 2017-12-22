@@ -1,0 +1,22 @@
+﻿日志时间:2017-05-24 10:37:32
+日志级别:Info
+日志位置:类[OracleHelper],方法[update ambul_outd_info set tsqk=32.0,ISZXQXPC=0,SFQXPC=0,QXYY=0  where lsh='20170524370800000226' and clid=]
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Web.OracleHelper.ExecuteNonQuery(String commandText, CommandType commandType, OracleParameter[] param) 位置 f:\工作资料\济宁\济宁0519\WebService\Web\Utils\OracleHelper.cs:行号 106
+
+日志时间:2017-05-24 10:37:32
+日志级别:Info
+日志位置:类[OracleHelper],方法[update ambul_outd_info set tsqk=32.0,ISZXQXPC=0,SFQXPC=0,QXYY=0  where lsh='20170524370800000226' and clid=]
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Web.OracleHelper.ExecuteNonQuery(String commandText, CommandType commandType, OracleParameter[] param) 位置 f:\工作资料\济宁\济宁0519\WebService\Web\Utils\OracleHelper.cs:行号 106
+

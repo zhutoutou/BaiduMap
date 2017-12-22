@@ -1,0 +1,16 @@
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Maps\ProductMap.xml
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Providers.config
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\SqlMap.config
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Web.dll.config
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Web.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Web.pdb
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Castle.DynamicProxy.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\IBatisNet.Common.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\IBatisNet.DataAccess.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\IBatisNet.DataMapper.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\log4net.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+E:\技术\MyBatisNet框架\MyBatisSample\Web\obj\Debug\Web.dll
+E:\技术\MyBatisNet框架\MyBatisSample\Web\obj\Debug\Web.pdb
+E:\技术\MyBatisNet框架\MyBatisSample\Web\bin\Maps\AcceptInfo.xml

@@ -1,0 +1,18 @@
+﻿日志时间:2017-05-15 14:10:31
+日志级别:Info
+日志位置:类[OracleHelper],方法[select * from V_CLLB order by clid]
+日志内容:参数：,错误：System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Web.OracleHelper.ExecuteList[T](String commandText, CommandType commandType, OracleParameter[] param) 位置 d:\新建文件夹 (2)\slt-姜正军修改\zsy_jn_ws\Web\Utils\OracleHelper.cs:行号 334
+
