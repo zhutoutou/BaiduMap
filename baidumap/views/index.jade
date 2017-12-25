@@ -1,17 +1,15 @@
 extends layout
-<<<<<<< HEAD
-block append css
-	link(rel='stylesheet',href='/stylesheets/index.css')
+block css
+  link(rel='stylesheet',href='/stylesheets/index.css')
 block content
-  
-=======
-
-block append Headcss
-  style.
-    body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
-block content
-  h1= title
-  p Welcome to #{title}
   #allmap
+  #left-panel
+    #searchbox
+      #searchbox-container
+        #sole-searchbox-content
+          input#sole-input.searchbox-content-common(type='text',autocomplete="off",maxlength="256",placeholder="搜地点、查公交、找路线")
+        .searchbox-content-button.right-button.route-button.loading-button
+      botton#search-button
+      #toast-wrapper
+        #toast
   script(src="/js/map.js")
->>>>>>> 6c3721082790101c9c00ed1fb5c37a0f41338990
