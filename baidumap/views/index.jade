@@ -1,10 +1,9 @@
-extends layout
-
-block append Headcss
-  style.
-    body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
+extends layout 
+block headcss
+    link(rel='stylesheet',href='/stylesheets/index.css')
 block content
-  h1= title
-  p Welcome to #{title}
   #allmap
+  #left-panel
+    #searchbox-container
+      input#sole-input.search-word(type='text',name='word',maxlength='256')
   script(src="/js/map.js")
