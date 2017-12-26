@@ -7,3 +7,20 @@ block content
     #searchbox-container
       input#sole-input.search-word(type='text',name='word',maxlength='256')
   script(src="/js/map.js")
+=======
+extends layout
+block css
+  link(rel='stylesheet',href='/stylesheets/index.css')
+block content
+  #allmap
+  #left-panel
+    #searchbox
+      #searchbox-container
+        #sole-searchbox-content
+          input#sole-input.searchbox-content-common(type='text',autocomplete="off",maxlength="256",placeholder="搜地点、查公交、找路线")
+        .searchbox-content-button.right-button.route-button.loading-button
+      botton#search-button
+      #toast-wrapper
+        #toast
+  script(src="/js/map.js")
+>>>>>>> d1d850879da4f85149cadafacfe9b1d2f35ffe9b
