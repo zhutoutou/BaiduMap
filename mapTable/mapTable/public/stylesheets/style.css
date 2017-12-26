@@ -1,0 +1,266 @@
+html {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, STHeiti, "Hiragino Sans GB", sans-serif;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+#container {
+    height: 100%
+}
+
+#search {
+    position: absolute;
+    left: 50px;
+    top: 45px;
+    box-shadow: 0px 2px 7px #998787
+}
+
+#search .search {
+    display: flex;
+    position: relative;
+}
+
+#search .search input {
+    border: none;
+    padding: 2px 6px;
+    width: 250px;
+    height: 34px;
+    font-size: 14px;
+    color: #545252;
+}
+
+#search .search-del {
+    position: absolute;
+    right: 62px;
+    top: 9px;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px;
+}
+
+#search .search-del:hover {
+    color: #6b6868;
+}
+
+#search .search .submit {
+    width: 56px;
+    font-size: 22px;
+    border: none;
+    background-color: #3385ff;
+    color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+#search .list {
+    display: flex;
+    flex-direction: column;
+    width: 318px;
+}
+
+#search .list .list-item {
+    padding: 4px;
+    background-color: #fff;
+    border-top: 1px solid #d0d0d0;
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+#search .list .list-item:last-child {
+    background-color: #fff !important;
+}
+
+#search .list .list-item:hover {
+    background-color: #f3f3f3;
+}
+
+#search .list .list-item.active {
+    background-color: #acf7ca;
+}
+
+#search .list .list-item.iconfont:before {
+    color: #3385ff;
+}
+
+#search .list .list-item span:first-child {
+    margin: 0 4px;
+}
+
+#search .list .list-item span.little {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #8c8787;
+}
+
+#search .list .list-item span.record {
+    font-size: 12px;
+    color: #ab86c7;
+}
+
+#search .list .list-item span.right {
+    font-size: 12px;
+    color: #ea1a1a;
+    position: absolute;
+    right: 11px;
+    bottom: 6px;
+}
+
+
+#way-list {
+    position: absolute;
+    right: 0;
+    top: 45px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 7px #998787;
+}
+
+#way-list .list {
+    max-height: 380px;
+    overflow: auto;
+}
+
+#way-list .list-del {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px;
+    text-shadow: none;
+}
+
+#way-list .list-arrow {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    color: #6b6868;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px;
+    text-shadow: none;
+}
+
+#way-list .list-arrow:hover {
+    color: #ccc;
+    transition: all .2s ease;
+}
+
+#way-list .list-del:hover {
+    color: #6b6868;
+    transition: all .2s ease;
+}
+
+#way-list .title {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #aa87ca;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+
+
+#way-list .way-item {
+    padding: 0 0 0 6px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+#way-list .way-item:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+#way-list .way-item.active {
+    background-color: #f5eeee;
+    cursor: pointer;
+}
+
+#way-list .way-item .iconfont {
+    font-size: 20px;
+    color: #4e5258;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+#way-list .way-item .orgin {
+    margin-right: 5px;
+    color: #1f6914;
+    border-left: 1px solid #ccc;
+    padding-left: 6px;
+}
+
+#way-list .way-item .des {
+    color: #1f6914;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#way-list .way-item .distance {
+    /* padding: 4px; */
+    background-color: #6552af;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 5px;
+    min-width: 50px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+}
+
+#way-list .way-item .time {
+    /* padding: 4px; */
+    background-color: #464571;
+    border-radius: 0;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 1px;
+    width: 50px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+}
+
+.sign{
+      position:  absolute;
+      left: -53px;
+      text-align: right;
+      width: 50px;
+}
+
+.minS,
+.minT {
+   background-color: #d6501d;
+   color: #fff;
+   width: 24px;
+   height: 24px;
+   text-align:  center;
+   line-height: 24px;
+   border-radius: 50%;
+   display:  inline-block;
+   box-shadow: 0px 2px 7px #998787;
+}

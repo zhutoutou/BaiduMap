@@ -1,0 +1,40 @@
+extends layout
+
+block content
+  input#city(type="hidden",value="#{city}")
+  #container
+  #search
+    //- .search
+    //-   input(type="text",placeholder="搜位置、地点")
+    //-   span.iconfont.icon-shanchu.search-del
+    //-   button.btn.submit.iconfont.icon-sousuo
+    //- .list
+  #way-list(style="display:none")
+    .title 
+      //- span.iconfont.icon-shouqi.list-arrow
+      span 推荐车辆
+      span.iconfont.icon-shanchu.list-del
+    .list
+  #lobibox.bottom.right
+    //- .box-tab
+    //-   .tabs
+    //-     span.iconfont.icon-info
+    //-     span.iconfont.icon-info
+    //-     span.iconfont.icon-info
+    //- .tab-content.info
+    //-   .lobibox-clear
+    //-     span.iconfont.icon-shanchu
+    //-   .lobibox-left
+    //-     span.iconfont.icon-info
+    //-     span.btns
+    //-       .lobibox-btn 派车
+    //-   .lobibox-right
+    //-     .lobibox-title 微信急救
+    //-     .lobibox-msg 电话：18112068567，位置：南京市雨花台区，坐标：（102.0201212,23212.121234）
+  script(src="/javascripts/ws.js")
+  script(src="/javascripts/MapSearch.js")
+  script(src="/javascripts/CarsInMap.js")
+  script(src="/javascripts/GoodRoute.js")
+  script(src="/javascripts/index.js")
+
+  //- script(src="/javascripts/map_index.js")

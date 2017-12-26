@@ -13,5 +13,10 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.0",
     "serve-favicon": "~2.4.5"
+  },
+  "appsetting":{
+    "ak":"Ek3VtUhFhBu62oMtrdG5zTqrN876FwFo",
+    "title":"地图",
+    "city":"南京市"
   }
 }

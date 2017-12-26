@@ -1,4 +1,4 @@
-body,
+/*body,
 html,
 #allmap {
     width: 100%;
@@ -9,9 +9,9 @@ html,
 }
 
 #left-panel{
-	position:absolute;
-	left: 20px;
-	top:20px;
+    position:absolute;
+    left: 20px;
+    top:20px;
 }
 
 #searchbox-container {
@@ -37,4 +37,100 @@ html,
     color: #333;
     position: relative;
     border-radius: 2px 0 0 2px;
+}*/
+
+form,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+tr,
+th,
+td,
+input {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body,
+html,
+#allmap {
+    z-index: 0;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "微软雅黑";
+}
+
+#left_panel {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 25px;
+    width: 440px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#search_container {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    width: 440px;
+    display: flex;
+    flex-direction: row;
+}
+
+#search_input {
+    position: relative;
+    z-index: 1;
+    width: 329px;
+    height: 38px;
+    line-height: 30px;
+    font-size: 16px;
+    border-left: 10px solid transparent;
+    border-right: 27px solid transparent;
+    border-radius: 2px 0 0 2px;
+    color: #333;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, .15);
+}
+
+#search_btn {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+    z-index: 1;
+    width: 57px;
+    height: 38px;
+    border-radius:0 2px 2px 0;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, .15);
+    background: url(//webmap1.bdimg.com/wolfman/static/common/images/new/searchbox_f175577.png) no-repeat 0 -76px #3385ff;
+}
+
+#searchbtn:hover{
+    background-color: #990000;
+}
+
+#searchrestult_panel{
+    position: relative;
+    z-index: 1;
+    width: 366px;
+    background-color: #fff;
+    border-top: 1px solid #E4E6E7;
+    display: none;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.15);
+    border-radius: 0 0 2px 2px;
+    height: 300px;
 }
