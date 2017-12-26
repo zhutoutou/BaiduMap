@@ -1,3 +1,5 @@
+//dom操作类
+var domhelper;
 // 获取城市
 var city = $('#city').val();
 // 创建Map实例
@@ -20,7 +22,16 @@ map.enableScrollWheelZoom(true);
 
 $('#search_input').on('input propertychange',function(){
   $.get('/map/suggestion',{keyword:$('#search_input').val()},function(res){
-    console.log(res);
+    var resinfo = JSON.parse(res);
+    if(resinfo.status == 0){
+      domhelper = new Domhelper();
+      domhelper.createKeywordPanel(resinfo.result);
+    }
+    else{
+      console.log('获取关键字推荐信息失败.' + resinfo.message);
+    }
   })
 })
+
+
 // 百度地图API功能

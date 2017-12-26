@@ -132,5 +132,14 @@ html,
     display: none;
     box-shadow: 1px 2px 1px rgba(0,0,0,.15);
     border-radius: 0 0 2px 2px;
-    height: 300px;
+    display: none;
+    flex-direction: column;
+}
+
+#searchrestult_panel .keyworditem{
+    z-index: 1;
+    width: 366px;
+    height: 38px;
+    line-height: 30px;
+    font-size: 16px;
 }
