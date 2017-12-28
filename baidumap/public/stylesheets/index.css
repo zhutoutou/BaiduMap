@@ -60,6 +60,10 @@ input {
     padding: 0px;
 }
 
+ul, ol {
+    list-style: none;
+}
+
 body,
 html,
 #allmap {
@@ -71,8 +75,14 @@ html,
     height: 100%;
     overflow: hidden;
     font-family: "微软雅黑";
+    font-size: 12px;
 }
-
+#guassian_blur_container{
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left:0;
+}
 #left_panel {
     position: absolute;
     z-index: 1;
@@ -83,7 +93,6 @@ html,
     display: flex;
     flex-direction: column;
 }
-
 #search_container {
     position: relative;
     z-index: 1;
@@ -119,7 +128,7 @@ html,
     background: url(//webmap1.bdimg.com/wolfman/static/common/images/new/searchbox_f175577.png) no-repeat 0 -76px #3385ff;
 }
 
-#searchbtn:hover{
+#search_btn:hover{
     background-color: #990000;
 }
 
@@ -129,17 +138,72 @@ html,
     width: 366px;
     background-color: #fff;
     border-top: 1px solid #E4E6E7;
-    display: none;
     box-shadow: 1px 2px 1px rgba(0,0,0,.15);
     border-radius: 0 0 2px 2px;
     display: none;
     flex-direction: column;
+     font-family: Arial,Helvetica,"Microsoft YaHei",sans-serif;
 }
 
-#searchrestult_panel .keyworditem{
-    z-index: 1;
-    width: 366px;
-    height: 38px;
-    line-height: 30px;
-    font-size: 16px;
+#searchrestult_panel ul {
+    display: flex;
+    flex-direction: column;
 }
+
+#searchrestult_panel .keyworditem:hover{
+    background-color: rgba(0,0,55,.35);
+}
+
+#searchrestult_panel .keyworditem a{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding-right: 10px;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#searchrestult_panel .suggestitem a{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding-right: 10px;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.search_item{
+    display: flex;
+    flex-direction: column;
+}
+
+#searchrestult_panel .suggestitem i{
+    padding-left:39px;
+    font-style: normal;
+    color: #666;
+    padding:-top:1px;
+
+}
+
+#searchrestult_panel .suggestitem i.default {
+    background: url(//webmap1.bdimg.com/wolfman/static/common/images/ui3/tools/suggestion-icon_013979b.png) no-repeat 12px -12px;
+}
+
+#searchrestult_panel .suggestitem i.search {
+    font-weight: bold;
+    font-size: 16px;
+    background: url(//webmap0.bdimg.com/wolfman/static/common/images/markers_new2_4ab0bc5.png) no-repeat 12px -12px;
+}
+
+#searchrestult_panel .suggestitem em{
+    margin-left: 10px;
+    margin-right:20px;
+    font-style: normal;
+    color: #999;
+}
+
+
