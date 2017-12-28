@@ -1,7 +1,11 @@
 //初始化派生类
 var derivative = new Derivative();
 window.alert = derivative.alert;
-derivative.init('#guassian_blur_container');
+var opts = {
+  canvas:'#guassian_blur_container',
+  blurRadius:1
+}
+derivative.init(opts);
 //dom操作类
 var domhelper = new Domhelper();
 // 获取城市
