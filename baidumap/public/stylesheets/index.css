@@ -38,6 +38,9 @@ html,
     position: relative;
     border-radius: 2px 0 0 2px;
 }*/
+.hide{
+    display: none;
+}
 
 form,
 p,
