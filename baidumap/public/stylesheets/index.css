@@ -62,6 +62,7 @@ input {
 
 ul, ol {
     list-style: none;
+
 }
 
 body,
@@ -77,6 +78,7 @@ html,
     font-family: "微软雅黑";
     font-size: 12px;
 }
+
 #guassian_blur_container{
     z-index: 100;
     position: absolute;

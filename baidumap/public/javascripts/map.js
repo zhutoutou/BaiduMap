@@ -3,7 +3,7 @@ var derivative = new Derivative();
 window.alert = derivative.alert;
 var opts = {
   canvas:'#guassian_blur_container',
-  blurRadius:1
+  blurRadius:2
 }
 derivative.init(opts);
 //dom操作类
