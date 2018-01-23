@@ -121,9 +121,9 @@ html,
     border: 0px;
     padding: 0px;
     z-index: 1;
-    width: 57px;
-    height: 38px;
-    border-radius:0 2px 2px 0;
+    width: 40px;
+    height: 40px;
+    border-radius:20px 0px 20px 20px;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, .15);
     background: url(//webmap1.bdimg.com/wolfman/static/common/images/new/searchbox_f175577.png) no-repeat 0 -76px #3385ff;
 }

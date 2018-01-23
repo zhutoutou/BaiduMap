@@ -1,5 +1,0 @@
-﻿日志时间:2017-05-17 16:15:27
-日志级别:Info
-日志位置:类[OracleHelper],方法[SP_UPDATE_AMBUL_OUTD_INFO]
-日志内容:update ambul_outd_info set sfqxpc=1,iszxqxpc=0 ,qxpcsj=to_date('2017/5/17 16:15:26','yyyy-mm-dd hh24:mi:ss'),qxyy=60  where lsh='20170517370800000394' and clid=10000
-

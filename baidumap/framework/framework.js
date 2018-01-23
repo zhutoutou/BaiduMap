@@ -1,5 +1,5 @@
 var http = require('http')
-var URL = require('url')
+var {URL} = require('url')
 var fw = {
     httpGet: function(url, cb) {
         url = encodeURI(url)
