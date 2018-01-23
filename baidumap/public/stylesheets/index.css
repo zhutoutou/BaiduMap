@@ -38,6 +38,9 @@ html,
     position: relative;
     border-radius: 2px 0 0 2px;
 }*/
+.hide{
+    display: none;
+}
 
 form,
 p,
@@ -62,6 +65,7 @@ input {
 
 ul, ol {
     list-style: none;
+
 }
 
 body,
@@ -77,6 +81,7 @@ html,
     font-family: "微软雅黑";
     font-size: 12px;
 }
+
 #guassian_blur_container{
     z-index: 100;
     position: absolute;

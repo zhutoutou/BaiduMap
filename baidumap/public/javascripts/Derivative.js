@@ -10,7 +10,7 @@ var Derivative = (function() {
         opts.canvas = options.canvas;
         opts.blurRadius = options.blurRadius;
         opts.gusArray = createIntArray(options.blurRadius * 2 + 1, options.blurRadius * 2 + 1);
-        opts.guslinearArray = createIntArray((options.blurRadius * 2 + 1) * (options.blurRadius * 2 + 1), 0);
+        opts.guslinearArray = [];
         GetGusWeightArray();
         $(opts.canvas).attr('width', $(document).width());
         $(opts.canvas).attr('height', $(document).height());
@@ -23,8 +23,9 @@ var Derivative = (function() {
             var ctx = $(opts.canvas).get(0).getContext('2d');
             console.log('开始渲染');
             var date1 = new Date(); //开始时间
-            var ImageData = GusImageData(LowerIQ(canvas.getContext('2d').getImageData(0, 0, $(document).width(), $(document).height())));
-
+            //var ImageData = GusImageData(LowerIQ(canvas.getContext('2d').getImageData(0, 0, $(document).width(), $(document).height())));
+            var ImageData = GusImageData(canvas.getContext('2d').getImageData(0, 0, $(document).width(), $(document).height()));
+            //var ImageData =canvas.getContext('2d').getImageData(0, 0, $(document).width(), $(document).height());
             var date2 = new Date(); //结束时间
             var date3 = date2.getTime() - date1.getTime() //时间差的毫秒数
             console.log('结束渲染，用时' + date3);
@@ -96,14 +97,14 @@ var Derivative = (function() {
                     for (var n = -blurRadius; n < blurRadius + 1; n++) {
                         if (Math.round(i / 4 / width) + m < 0 || Math.round(i / 4 / width) + m > height - 1 || ((i / 4) % width) + n < 0 || ((i / 4) % width) + n > width - 1) {
                             Red = Red + imagedata.data[i] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
-                            Green = Green + imagedata.data[(i + 1)] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
-                            Blue = Blue + imagedata.data[(i + 2)] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
+                            Green = Green + imagedata.data[i + 1] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
+                            Blue = Blue + imagedata.data[i + 2] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
                             Alpha = Alpha + imagedata.data[i + 3] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
                         } else {
-                            Red = Red + imagedata.data[(Math.round(i / 4 / width) + m) * width + ((i / 4) % width) + n] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
-                            Green = Green + imagedata.data[(Math.round((i + 1) / 4 / width) + m) * width + (((i + 1) / 4) % width) + n] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
-                            Blue = Blue + imagedata.data[(Math.round((i + 2) / 4 / width) + m) * width + (((i + 2) / 4) % width) + n] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
-                            Alpha = Alpha + imagedata.data[(Math.round((i + 3) / 4 / width) + m) * width + (((i + 3) / 4) % width) + n] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
+                            Red = Red + imagedata.data[4 * ((Math.round(i / 4 / width) + m) * width + ((i / 4) % width) + n)] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
+                            Green = Green + imagedata.data[4 * ((Math.round(i / 4 / width) + m) * width + ((i / 4) % width) + n) + 1] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
+                            Blue = Blue + imagedata.data[4 * ((Math.round(i / 4 / width) + m) * width + ((i / 4) % width) + n) + 2] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
+                            Alpha = Alpha + imagedata.data[4 * ((Math.round(i / 4 / width) + m) * width + ((i / 4) % width) + n) + 3] * opts.guslinearArray[(m + blurRadius) * (blurRadius * 2 + 1) + n + blurRadius]
                         }
                     }
                 }
@@ -114,32 +115,26 @@ var Derivative = (function() {
 
 
             }
-            imagedata.data = data;
-            return imagedata;
-
+            var obj = new ImageData(data, imagedata.width, imagedata.height);
+            return obj;
         }
     }
 
     function LowerIQ(imagedata) {
         var y = Math.round(imagedata.height / 10);
         var x = Math.round(imagedata.width / 10);
-        var data = createIntArray(x * y, 0);
+        var data = createIntArray(x * y * 4, 0);
         for (var m = 0; m < imagedata.height; m += 10) {
             for (var n = 0; n < imagedata.width; n += 10) {
-                data[n % 10 + Math.round(m / 10) * x] = imagedata.data[m * imagedata.width + n];
+                data[(n / 10 + Math.round(m / 10) * x) * 4] = imagedata.data[(m * imagedata.width + n) * 4];
+                data[(n / 10 + Math.round(m / 10) * x) * 4 + 1] = imagedata.data[(m * imagedata.width + n) * 4 + 1];
+                data[(n / 10 + Math.round(m / 10) * x) * 4 + 2] = imagedata.data[(m * imagedata.width + n) * 4 + 2];
+                data[(n / 10 + Math.round(m / 10) * x) * 4 + 3] = imagedata.data[(m * imagedata.width + n) * 4 + 3];
             }
         }
-        //obj.__proto__ = imagedata.__proto__;
-        var obj = {
-            data:data,
-            width:x,
-            height:y
-        }
 
-        imagedata.data = data;
-        imagedata.width = x;
-        imagedata.height = y;
-        return imagedata;
+        var obj = new ImageData(data, x, y);
+        return obj;
     }
 
     function GusImage(image, width, height) {
@@ -169,22 +164,21 @@ var Derivative = (function() {
     }
 
     function createIntArray(x, y) {
-      var arr = new Array();
-      if (y) {
-          for (var j = 0; j < y; j++) {
+        if (y) {
+            var arr = new Array();
 
-              arr[j] = new Array();
-              for (var i = 0; i < x; i++) {
-                  arr[j][i] = 0.0;
-              }
+            for (var j = 0; j < y; j++) {
 
-          }
-      } else {
-          for (var i = 0; i < x; i++) {
-              arr[i] = 0.0;
-          }
-      }
-      return arr;
+                arr[j] = new Array();
+                for (var i = 0; i < x; i++) {
+                    arr[j][i] = 0.0;
+                }
+
+            }
+        } else {
+            var arr = new Uint8ClampedArray(x);
+        }
+        return arr;
     }
 
     return function() {

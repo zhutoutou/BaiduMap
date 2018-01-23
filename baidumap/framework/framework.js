@@ -1,55 +1,38 @@
-var http = require('http')
-var {URL} = require('url')
+const http = require('http')
+const URL = require('url')
+const request = require('superagent')
 var fw = {
-    httpGet: function(url, cb) {
-        url = encodeURI(url)
-        // console.log(url)
-        http.get(url, (res) => {
-            const { statusCode } = res;
-            const contentType = res.headers['content-type'];
+    /*
+    */
+    
+    httpGet:function(options){
+        var url = options.url||'';
+        var setting = options.setting||{};
+        var param = options.param||{};
+        var retry = options.retry||3;
+        
+        var g = gen()
+        var result = g.next();
 
-            let error;
-            if (statusCode !== 200) {
-                error = new Error('请求失败。\n' +
-                    `状态码: ${statusCode}`);
-            }
-            // else if (!/^application\/json/.test(contentType)) {
-            //     error = new Error('无效的 content-type.\n' +
-            //         `期望 application/json 但获取的是 ${contentType}`);
-            // }
-            if (error) {
-                console.error(error.message);
-                cb({
-                    status: -1,
-                    message: error.message
+        return result.value.then(function(res){
+            return res.text;
+        }).then(function(data){
+            g.next(data);
+        })
+        function* gen(){
+            var result = yield promise();
+            return result;
+        }
+        
+        function promise(){
+            return request
+                .get(url)                           //Address
+                .set(setting)                       //Setting
+                .query(param)                       //Param
+                .retry(retry,function(err,res){     //retry
                 })
-                // 消耗响应数据以释放内存
-                res.resume();
-                return;
-            }
-
-            res.setEncoding('utf8');
-            let rawData = '';
-            res.on('data', (chunk) => { rawData += chunk; });
-            res.on('end', () => {
-                try {
-                    const parsedData = JSON.parse(rawData);
-                    cb(rawData)
-                } catch (e) {
-                    console.error(e.message);
-                    cb({
-                        status: -1,
-                        message: e.message
-                    })
-                }
-            });
-        }).on('error', (e) => {
-            console.error(`错误: ${e.message}`);
-            cb({
-                status: -1,
-                message: e.message
-            })
-        });
+        }
+        
     },
     httpPost: function(url, args, cb) {
         // console.log(args)

@@ -2,8 +2,8 @@
 var derivative = new Derivative();
 window.alert = derivative.alert;
 var opts = {
-  canvas:'#guassian_blur_container',
-  blurRadius:1
+    canvas: '#guassian_blur_container',
+    blurRadius: 2
 }
 derivative.init(opts);
 //dom操作类
@@ -28,33 +28,46 @@ map.addControl(new BMap.ScaleControl({
 map.setCurrentCity(this.city); // 设置地图显示的城市 此项是必须设置的
 map.enableScrollWheelZoom(true);
 
-$('#search_btn').on('click',function(){
-    alert('点击！');
-})
-$('#guassian_blur_container').css('display','none');
-$('#search_input').on('input propertychange', function() {
-    if ($('#search_input').val().trim() != "") {
-        $.get('/map/suggestion', { keyword: $('#search_input').val() }, function(res) {
-            var resinfo = JSON.parse(res);
-            if (resinfo.status == 0) {
-                domhelper.createKeywordPanel(resinfo.result);
-            } else {
-                console.log('获取关键字推荐信息失败.' + resinfo.message);
-            }
-        })
+ $.get('/map/suggestion', { keyword: "" }, function(res) {
+    var resinfo = JSON.parse(res);
+    if (resinfo.status == 0) {
+        domhelper.createKeywordPanel(resinfo.result);
     } else {
-        domhelper.createKeywordPanel([]);
+        console.log('获取关键字推荐信息失败.' + resinfo.message);
     }
 })
 
-$('#searchrestult_panel').on('click', 'li.keyworditem', function(e) {
-  console.log(domhelper.data[parseInt($(this).attr('index'))].name)
-    $.get('/map/search', { keyword: domhelper.data[parseInt($(this).attr('index'))].name }, function(res) {
-        var resinfo = JSON.parse(res);
-        if (resinfo.status == 0) {
-            domhelper.CreateSearchResultPanel(resinfo.results);
+map.addEventListener('tilesloaded',function() {
+    $('#allmap .anchorBL').css('display', 'none');
+
+    $('#search_btn').on('click', function() {
+        alert('点击！');
+    })
+    $('#guassian_blur_container').css('display', 'none');
+    $('#search_input').on('input propertychange', function() {
+        if ($('#search_input').val().trim() != "") {
+            $.get('/map/suggestion', { keyword: $('#search_input').val() }, function(res) {
+                var resinfo = JSON.parse(res);
+                if (resinfo.status == 0) {
+                    domhelper.createKeywordPanel(resinfo.result);
+                } else {
+                    console.log('获取关键字推荐信息失败.' + resinfo.message);
+                }
+            })
         } else {
-            console.log('查询关键字推荐信息失败.' + resinfo.message);
+            domhelper.createKeywordPanel([]);
         }
     })
-});
+
+    $('#searchrestult_panel').on('click', 'li.keyworditem', function(e) {
+        console.log(domhelper.data[parseInt($(this).attr('index'))].name)
+        $.get('/map/search', { keyword: domhelper.data[parseInt($(this).attr('index'))].name }, function(res) {
+            var resinfo = JSON.parse(res);
+            if (resinfo.status == 0) {
+                domhelper.CreateSearchResultPanel(resinfo.results);
+            } else {
+                console.log('查询关键字推荐信息失败.' + resinfo.message);
+            }
+        })
+    });
+})
