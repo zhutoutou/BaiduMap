@@ -27,6 +27,16 @@ map.addControl(new BMap.ScaleControl({
 }));
 map.setCurrentCity(this.city); // 设置地图显示的城市 此项是必须设置的
 map.enableScrollWheelZoom(true);
+
+ $.get('/map/suggestion', { keyword: "" }, function(res) {
+    var resinfo = JSON.parse(res);
+    if (resinfo.status == 0) {
+        domhelper.createKeywordPanel(resinfo.result);
+    } else {
+        console.log('获取关键字推荐信息失败.' + resinfo.message);
+    }
+})
+
 map.addEventListener('tilesloaded',function() {
     $('#allmap .anchorBL').css('display', 'none');
 
