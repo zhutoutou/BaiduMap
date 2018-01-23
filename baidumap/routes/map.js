@@ -1,12 +1,12 @@
-var express = require('express');
-var package =require('../package.json');
-var fw = require('../framework/framework');
-var router = express.Router();
+const express = require('express');
+const package =require('../package.json');
+const fw = require('../framework/framework');
+const router = express.Router();
+const co = require('co')
 
 /*GET*/
 //获取关键字推荐
 router.get('/suggestion', function(req, res, next) {
-    console.log('进入')
     var options = {
         url:"http://api.map.baidu.com/place/v2/suggestion",
         param:{
@@ -17,14 +17,14 @@ router.get('/suggestion', function(req, res, next) {
             ak:package.appsetting.ak
         }
     }
-    try{
-        var data = fw.httpGet(options)
-        console.log(data);
-        res.send(data);
-    }
-    catch(error){
-        console.log(error)
-    }
+    
+    co(function* (){
+        var result =yield fw.httpGet(options);
+        res.send(result.text)
+    }).catch(function(err){
+        console.log(err)
+    })
+
 })
 
 //查询关键字

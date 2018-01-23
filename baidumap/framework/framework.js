@@ -1,38 +1,21 @@
 const http = require('http')
 const URL = require('url')
+const co = require('co')
 const request = require('superagent')
 var fw = {
     /*
     */
-    
     httpGet:function(options){
         var url = options.url||'';
         var setting = options.setting||{};
         var param = options.param||{};
         var retry = options.retry||3;
-        
-        var g = gen()
-        var result = g.next();
-
-        return result.value.then(function(res){
-            return res.text;
-        }).then(function(data){
-            g.next(data);
+        return request
+            .get(url)                           //Address
+            .set(setting)                       //Setting
+            .query(param)                       //Param
+            .retry(retry,function(err,res){     //retry
         })
-        function* gen(){
-            var result = yield promise();
-            return result;
-        }
-        
-        function promise(){
-            return request
-                .get(url)                           //Address
-                .set(setting)                       //Setting
-                .query(param)                       //Param
-                .retry(retry,function(err,res){     //retry
-                })
-        }
-        
     },
     httpPost: function(url, args, cb) {
         // console.log(args)
