@@ -1,4 +1,5 @@
 //初始化派生类
+var  socket = io();
 var derivative = new Derivative();
 window.alert = derivative.alert;
 var opts = {
