@@ -1,0 +1,10 @@
+extends layout
+block css
+  link(rel='stylesheet',href='/stylesheets/chat.css')
+block content 
+  ul#message
+  form
+    input#m
+    button Send
+  script(src="/javascripts/opensource/socket.io.js")
+  script(src="/javascripts/chat.js")

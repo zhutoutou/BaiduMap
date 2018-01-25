@@ -20,7 +20,7 @@ app.set('port', port);
  */
 
 var server = http.createServer(app);
-var io = require('socket.io')(server);
+
 /**
  * Listen on provided port, on all network interfaces.
  */
@@ -32,9 +32,17 @@ server.on('listening', onListening);
 /**
  * Listen on Io
  */
+var io = require('socket.io')(server);
+//io.path('/chat');
 io.on('connection',function(socket){
-  console.log('a user connnect')
-  console.log(socket);
+  console.log('a user connnect');
+  socket.on('chat message',function(msg){
+    socket.emit('rep message',msg);
+    console.log('message:' + msg)
+  });
+  socket.on('disconnect',function(){
+    console.log('user disconnected');
+  });
 })
 
 /**

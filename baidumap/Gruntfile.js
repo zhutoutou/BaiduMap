@@ -12,7 +12,7 @@ module.exports = function(grunt) {
             }
         }
     });
-
+    
     // Load the plugin that provides the "uglify" task.
     grunt.loadNpmTasks('grunt-contrib-uglify');
     //默认被默认执行的任务列表
