@@ -5,7 +5,7 @@ window.alert = derivative.alert;
 var opts = {
     canvas: '#guassian_blur_container',
     blurRadius: 2
-}
+};
 derivative.init(opts);
 //dom操作类
 var domhelper = new Domhelper();
@@ -36,14 +36,14 @@ map.enableScrollWheelZoom(true);
     } else {
         console.log('获取关键字推荐信息失败.' + resinfo.message);
     }
-})
+});
 
 map.addEventListener('tilesloaded',function() {
     $('#allmap .anchorBL').css('display', 'none');
 
     $('#search_btn').on('click', function() {
         alert('点击！');
-    })
+    });
     $('#guassian_blur_container').css('display', 'none');
     $('#search_input').on('input propertychange', function() {
         if ($('#search_input').val().trim() != "") {
@@ -54,14 +54,14 @@ map.addEventListener('tilesloaded',function() {
                 } else {
                     console.log('获取关键字推荐信息失败.' + resinfo.message);
                 }
-            })
+            });
         } else {
             domhelper.createKeywordPanel([]);
         }
-    })
+    });
 
     $('#searchrestult_panel').on('click', 'li.keyworditem', function(e) {
-        console.log(domhelper.data[parseInt($(this).attr('index'))].name)
+        console.log(domhelper.data[parseInt($(this).attr('index'))].name);
         $.get('/map/search', { keyword: domhelper.data[parseInt($(this).attr('index'))].name }, function(res) {
             var resinfo = JSON.parse(res);
             if (resinfo.status == 0) {
@@ -69,6 +69,6 @@ map.addEventListener('tilesloaded',function() {
             } else {
                 console.log('查询关键字推荐信息失败.' + resinfo.message);
             }
-        })
+        });
     });
-})
+});

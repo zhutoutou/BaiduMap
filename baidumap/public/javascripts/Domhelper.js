@@ -27,9 +27,9 @@ var Domhelper = function() {
             var id = 'keyitem_' + i;
             var index = i;
             var li = $("<li id='" + 'keyitem_' + i + "' class='keyworditem' index='" + i + "'><a class='search_item'><i class='search'>" + data[i].name + "</i><em>" + data[i].address + "</em></a></li>");
-            li.on('click', function(e) {
-                console.log(e);
-            })
+            // li.on('click', function(e) {
+            //     console.log(e);
+            // });
             ul.append(li);
         }
         $('#searchrestult_panel').append(ul);
@@ -38,4 +38,4 @@ var Domhelper = function() {
     this.CreateSearchResultPanel = CreateSearchResultPanel;
     this.createKeywordPanel = createKeywordPanel;
     this.data = data;
-}
+};
